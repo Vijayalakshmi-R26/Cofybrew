@@ -1,0 +1,593 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /* outline: 1px solid lime; */
+
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+.section {
+    height: 130vh;
+    /* Full screen height */
+    width: 100%;
+    position: relative;
+}
+
+.brown {
+    background-color: rgb(48, 24, 24);
+    background-image: url(beans-bg-img.png);
+}
+
+.white {
+    background-color: white;
+
+
+
+}
+
+.pink {
+    background-color: rgb(233, 203, 208);
+    height: 160vh;
+
+}
+
+.sand {
+    background-color: rgb(240, 223, 209);
+    height: 100vh;
+
+}
+
+
+.btn-transparent {
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn-transparent1 {
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn-transparent8 {
+    color: black !important;
+}
+
+/* Make dropdown items transparent and visible */
+.btn-transparent {
+    background-color: transparent !important;
+    color: white !important;
+    /* or any color that suits your red btn */
+}
+
+.container {
+
+    width: 1180px !important;
+    justify-content: space-between !important;
+}
+
+.container1 {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 800px !important;
+
+
+}
+
+.btn-custom:hover {
+    color: goldenrod !important;
+}
+
+.btn-goldenrod {
+    background-color: goldenrod !important;
+    color: white;
+}
+
+.bi-search {
+    color: goldenrod !important;
+    font-size: 30px !important;
+
+    padding-left: 100px !important;
+
+
+
+}
+
+.container2 {
+    display: flex !important;
+    margin-right: 100px !important;
+    justify-content: space-between !important;
+}
+
+.boxbox1 {
+    position: relative;
+    width: 520px;
+    height: 800px;
+    top: 150px;
+    left: 1000px;
+    background-image: url(shake.webp);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    z-index: 2;
+    
+}
+
+.boxbox2 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 280px;
+    left: 870px;
+    background-image: url(seo-three-circless.png);
+    z-index: 1;
+    background-position: contain;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    animation: rotateBg 20s linear infinite;
+     
+    
+}
+
+@keyframes rotateBg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.boxbox3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 550px;
+    left: 190px;
+
+    background-image: url(bean-img-2.png);
+    background-position: cover;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    animation: rotateBg 20s linear infinite;
+    
+}
+
+@keyframes rotateBg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.boxbox4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 750px;
+    background-image: url(bean-img-3.png);
+    left: 600px;
+    background-position: cover;
+    background-size: 150px;
+    background-repeat: no-repeat;
+   animation: rotateBg 20s linear infinite;
+     
+}
+
+@keyframes rotateBg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.boxbox5 {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 250px;
+    left: 50px;
+
+
+}
+
+.bi-cup-hot {
+    color: goldenrod !important;
+    padding: 20px !important;
+    font-size: 20px;
+}
+
+.text-goldenrod {
+    color: goldenrod !important;
+}
+
+.boxbox6 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    top: 700px;
+    left: 1210px;
+    z-index: 3;
+         
+}
+
+.boxbox7 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 550px;
+    background-image: url(coffee-beans.png);
+    left: 790px;
+    z-index: 7;
+    background-position: cover;
+    background-size: 350px;
+    background-repeat: no-repeat;
+   animation: rotateBg 20s linear infinite;
+
+    
+}
+
+@keyframes rotateBg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(60deg);
+  }
+}
+
+
+
+
+.boxbox8 {
+    position: absolute;
+    width: 70px;
+    height: 150px;
+    top: 750px;
+    background-image: url(award-left.png);
+    left: 200px;
+    background-position: cover;
+    background-size: 50px;
+    background-repeat: no-repeat;
+   
+  
+}
+
+.boxbox9 {
+    position: absolute;
+    width: 70px;
+    height: 150px;
+    top: 750px;
+    background-image: url(award-symbols.png);
+    left: 400px;
+    background-position: cover;
+    background-size: 50px;
+   
+    background-repeat: no-repeat;
+    
+}
+
+.boxbox10 {
+    position: absolute;
+    height: 210px;
+    width: 220px;
+    top: 750px;
+    left: 215px;
+    
+   
+}
+
+.container4 {
+    display: grid;
+    grid-template-rows: repeat(7, 100px);
+    grid-template-columns: repeat(14, 100px);
+    grid-gap: 0.2cm;
+    margin-top: 50px;
+    margin-left: 90px;
+    border: 3 px solid black;
+   
+
+}
+
+.boxbox11 {
+
+    grid-area: 1/1/8/8;
+    z-index: 1;
+    background-image: url(woman.webp);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.boxbox12 {
+
+    grid-area: 2/9/7/-1;
+    position: relative;
+    
+}
+
+.boxbox13 {
+    background-color: brown;
+    color: white;
+    width: 700px;
+    height: 200px;
+    margin-top: 550px;
+    position: relative;
+    border-radius: 30px;
+
+
+}
+
+.boxbox14 {
+
+    height: 50px;
+    width: 200px;
+    margin-left: 500px;
+    position: absolute;
+    top: 20px;
+
+}
+
+.boxbox15 {
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    right: 60px;
+    
+}
+
+.boxbox16 {
+
+    width: 130px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+
+}
+
+.boxbox17 {
+
+    width: 150px;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+
+}
+
+
+
+.container5 {
+    display: grid;
+    height: 1200px;
+    width: 1500px;
+    grid-template-rows: repeat(12, 100px);
+    grid-template-columns: repeat(13, 100px);
+    margin-left: 90px;
+   
+
+
+
+}
+
+.boxbox19 {
+
+    grid-area: 1/9/7/16;
+    z-index: 1;
+    background-image: url(coffee-bag-1-768x713.webp);
+    background-size: 700px;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+.boxbox20 {
+
+    grid-area: 1/2/5/8;
+    z-index: 2;
+
+
+}
+
+.boxbox21 {
+
+    grid-area: 9/3/-1/8;
+    background-image: url(disposable-cup-1-1.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+  
+
+
+}
+
+.boxbox22 {
+
+    grid-area: 9/8/-1/14;
+    z-index: 3;
+    background-size: cover;
+
+
+}
+
+.container9 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 450px;
+
+
+}
+
+.bi-check-square {
+    font-size: 100px;
+    color: goldenrod;
+}
+
+
+.container42 {
+    display: grid;
+   margin-left: 90px;
+    grid-template-rows: repeat(10, 100px);
+    grid-template-columns: repeat(14, 100px);
+    grid-gap: 0.2cm;
+
+
+
+}
+
+.boxbox41 {
+
+    grid-area: 4/6/10/11;
+    z-index: 1;
+    background-image: url(coffe-makers-1-768x1128.webp);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.boxbox42 {
+
+    grid-area: 2/1/4/-1;
+
+
+}
+
+.boxbox43 {
+
+    grid-area: 6/1/9/6;
+    /* background-image: url(desk.jpg); */
+    background-size: cover;
+    
+
+
+}
+
+.boxbox44 {
+
+    grid-area: 6/10/9/-1;
+    z-index: 3;
+    /* background-image: url(stool.jpg); */
+    background-size: cover;
+
+}
+
+.container51 {
+    display: grid;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(12, 100px);
+    margin-left: 230px;
+    
+}
+
+.boxbox51 {
+
+    grid-area: 1/1/-1/5;
+    z-index: 1;
+    background-image: url(coffee-cup-image2.png);
+    background-size: contain;
+    margin-top: 50px;
+    z-index: 1;
+    
+
+}
+
+.boxbox52 {
+
+    grid-area: 2/6/6/-1;
+    
+   }
+
+.boxbox53 {
+    grid-area: 3/3/5/4;
+    z-index: 2;
+    background-image: url(cof.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+   
+
+}
+.feeder{
+    width: 100%;
+    height: 80vh;
+    background-image: url(beanbg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.boxbox61{
+        position: absolute;
+        width: 290px;
+        height: 450px;
+        top: 100px;
+        left: 100px;
+       
+}
+.boxbox62{
+        position: absolute;
+        width: 380px;
+        height: 450px;
+       
+        top: 100px;
+        left: 450px;
+}
+.boxbox63{
+        position: absolute;
+        width: 290px;
+        height: 450px;
+
+        top: 100px;
+        left:880px;
+}
+.boxbox64{
+        position: absolute;
+        width: 300px;
+        height: 450px;
+
+        top: 100px;
+        left: 1200px;
+}
+.container15{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 50px;
+    
+
+}
+.navbar{
+    height: 150px;
+    position: fixed;
+    z-index: 1000;
+    align-items: center;
+    width: 100%;
+}
